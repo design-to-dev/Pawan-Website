@@ -1,0 +1,17 @@
+@media screen and (max-width: 940px) {
+  .signup-sec{
+    display: block;
+    width: 100%;
+    text-align: center ;
+  } 
+ .content .content-overlay h1{
+  font-size: 30px;
+  margin-top: 70px;
+ }
+ .slider-img{
+  height: 580px;
+ }
+ .content .content-overlay p{
+  font-size: 14px;
+ }
+}
