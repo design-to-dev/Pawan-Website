@@ -106,6 +106,16 @@ left: 0;
     border-radius: 8px;
         text-align: center;
 }
+/* We are nichetech section  */
+.awards{
+	
+}
+.award-img{
+	display: inline-block;
+	width: 175px;
+ }
+
+
 @media only screen and (max-width: 720px){
 
 	.carousel-caption{
@@ -125,4 +135,4 @@ left: 0;
 	.card{
 		margin-bottom: 80px;
 	}
-}
+	
