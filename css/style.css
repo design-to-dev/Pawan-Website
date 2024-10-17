@@ -56,7 +56,6 @@ left: 0;
 }
 .logo-title{
 	font-family: pacifico;
-	font-weight:;
 	color: #ff5409;
 }
 /*Services Section*/
@@ -107,27 +106,54 @@ left: 0;
         text-align: center;
 }
 /* We are nichetech section  */
-.awards{
-	
-}
+
 .award-img{
 	display: inline-block;
 	width: 175px;
  }
  .button .about-us-button{
-	border: 1px solid #28a745;
+	border: 2px solid #28a745;
 	color: #28a745;
     padding: 15px 28px;
     border-radius: 25px;
     margin-top: 25px;
+	font-weight: 600;
  }
  .button .about-us-button:hover{
 	color: #ffffff;
 	background-color: #28a745;
  }
+ .fa-play{
+	background-color: #28a745;
+	color: #ffffff;
+	padding: 15px;
+	border-radius: 100%;
+	font-size: 20px;
+ }
+ statestics-section{
+	margin-top: auto;
+ }
+.statestics{
+	height: 250px;
+	box-shadow: 0 0 15px 0 rgb(60 58 57 / 10%);
+    border-bottom: 10px solid #bbf8c9;
+	padding: 20px;
+ }
+ .statestics h2{
+	font-size: 40px;
+	font-weight: bold;
+ }
+
+.main-button{
+	display: flex;
+}
+.button-2{
+    margin: 45px 40px;
+}	
 
 
-@media only screen and (max-width: 720px){
+
+@media only screen and (max-width: 720px) {
 
 	.carousel-caption{
 		width: 100%;
@@ -146,4 +172,4 @@ left: 0;
 	.card{
 		margin-bottom: 80px;
 	}
-	
+}
