@@ -176,10 +176,52 @@ left: 0;
 .clients .clients-logo img{
 	width: 100%;
 }
+/* Footer Section Starts here */
 .footer-logo{
 	font-family: pacifico;
+	font-size: 30px;
+	color: #fc834f;
 }
+.footer-services ul{
+	list-style: none;
+}
+.footer-services ul li a{
+	color: #ffffff;
+	color: rgba(255, 255, 255, 0.75);
+	text-decoration: none;
+}
+.footer-services ul li a :hover{
+	color: #28a745 !important;
+}
+.footer-bottom ul{
+ list-style: none;
+}
+/* .form-group input{
+	background: none;
+	color: aliceblue !important;
+} */
+.form-control{
+	background: #343a40;
+    border: 1px solid white;
+	color: #ff5409;
+}
+.form-control:focus{
+	background: #343a40;
+  }
+
+.form-control::placeholder{
+	color: white;
+}
+/* .social-link {
+    margin-left: auto; /* Pushes social links to the right */
+
+
+
 @media only screen and (max-width: 720px) {
+
+	.logo-title{
+		font-size: 25px;
+	}
 
 	.carousel-caption{
 		width: 100%;
@@ -194,8 +236,19 @@ left: 0;
 		height: 100%;
         object-fit: cover;
 	}
+	.services-card p{
+		font-size: 13px;
+	}
 
 	.card{
 		margin-bottom: 80px;
+	}
+	.button .about-us-button{
+		padding: 16px 12px;
+		border-radius: 20px;
+
+	}
+	.statestics{
+		height: 250px;
 	}
 }
