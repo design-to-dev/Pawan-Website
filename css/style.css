@@ -9,6 +9,10 @@
     padding-top: 15rem;
 
 }
+@font-face {
+	font-family: 'pacifico';
+	src: url(../fonts/Pacifico-Regular.ttf) format('truetype');
+}
 section{
 	margin-top: 150px !important;
 }
@@ -103,7 +107,7 @@ left: 0;
 }
 
 .card-button{
-	        width: 40%;
+	width: 40%;
     margin: 0 auto;
     display: block;
     margin-bottom: 7%;
