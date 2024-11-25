@@ -55,6 +55,8 @@
 // else{
 //     console.log(fail);
 // }
+
+// Lets Check Number is positive or not
 // let num = prompt("Plz Enter Your Number");
 
 // if (num > 0){
@@ -69,6 +71,7 @@
 // else {
 //     console.log("Error! Plz enter Numbers only");
 // }
+// Lets Which number is bigger
 let a = 25 , b = 35 , c = 0 ;
 
 if (a > b && a > c) {
