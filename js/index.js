@@ -86,7 +86,16 @@
 // else {
 //     console.log("C Samjha he kya!");
 // };
-for (let i = 0 ; i >= 0 ; i++){
-    console.log(i)
-}
+
+// Lets Start Learing Loop
+// It Looks dificult to understand
+
+// for (i = 0 ;  i <= 100 ; i += 2){
+//     console.log(i)
+// }
+let num = 25
+for (i = 1 ; i <= num ; i++){
+  num = num + i;
+  console.log(num)
+    }
 
