@@ -72,18 +72,21 @@
 //     console.log("Error! Plz enter Numbers only");
 // }
 // Lets Which number is bigger
-let a = 25 , b = 35 , c = 0 ;
+// let a = 25 , b = 35 , c = 0 ;
 
-if (a > b && a > c) {
-    console.log("A is Larger Number");
+// if (a > b && a > c) {
+//     console.log("A is Larger Number");
+// }
+// else if (b > a && b > c) {
+//     console.log("B is Larger Number");
+// }
+// else if (c > a && c > b) {
+//     console.log("C is Larger Number");
+// }
+// else {
+//     console.log("C Samjha he kya!");
+// };
+for (let i = 0 ; i >= 0 ; i++){
+    console.log(i)
 }
-else if (b > a && b > c) {
-    console.log("B is Larger Number");
-}
-else if (c > a && c > b) {
-    console.log("C is Larger Number");
-}
-else {
-    console.log("C Samjha he kya!");
-};
 
