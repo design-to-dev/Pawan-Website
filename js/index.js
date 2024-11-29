@@ -93,9 +93,10 @@
 // for (i = 0 ;  i <= 100 ; i += 2){
 //     console.log(i)
 // }
-let num = 25
-for (i = 1 ; i <= num ; i++){
-  num = num + i;
-  console.log(num)
-    }
-
+// let num = 25
+// for (i = 1 ; i <=  num ; i++){
+//   num = num + i;
+//   console.log(num)
+//     }
+ let isfollow = true
+console.log(isfollow)
